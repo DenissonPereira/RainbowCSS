@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(235, 227, 195);
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #3333332d;
+    backdrop-filter: blur(20px);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    z-index: 100;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 4px #1f1f1f;
+    transition: 0.5s;
+}
+nav a:hover {
+    color: aqua;
+    font-size: 40px;
+    transition: 1s;
+}
+
+li#primeiro {
+    margin-right: 40vw;
+}
+.imagem img {
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+}
+
+.caixa_imagem {
+    position: fixed;
+    width: 500px;
+    height: 300px;
+    top: 30%;
+    left: 50%;
+    background-color: #ffffff0e;
+    backdrop-filter: blur(30px);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.116);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50px;
+}
+.container {
+    display: flex; /* Define um contêiner flex */
+    margin-left: 10vw;
+    width: 1500px;
+    justify-content: center;
+    text-align: center;
+}
+.conter1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    
+}
+.caixa1 {
+    background: linear-gradient(to right, #FF0000, #0000FF);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.caixa2 {
+    background: linear-gradient(to right, #2d9733, #3ca59c);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.caixa3 {
+    background: linear-gradient(to right, #c2bf14, #e94dee);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.caixa4 {
+    background: linear-gradient(to right, #7cf358, #0000FF);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
