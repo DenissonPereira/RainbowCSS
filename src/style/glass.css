@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(238, 237, 235);
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #3333332d;
+    backdrop-filter: blur(20px);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    z-index: 100;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 4px #1f1f1f;
+    transition: 0.5s;
+}
+nav a:hover {
+    color: aqua;
+    font-size: 40px;
+    transition: 1s;
+}
+
+li#primeiro {
+    margin-right: 40vw;
+}
+.imagem img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    z-index: -1;
+    margin-bottom: 100px;
+}
+
+.caixa_imagem {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 30%;
+    left: 50%;
+    background-color: #ffffff0e;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.116);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50px;
+}
+.caixa_imagem:hover {
+    box-shadow: 2px 2px 2px black;
+}
+.container {
+    display: flex; /* Define um contêiner flex */
+    margin-left: 10vw;
+    width: 1500px;
+    justify-content: center;
+    text-align: center;
+}
+.conter1 {
+    background-image: url(../image/da-guojing-6888603_640.jpg);
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+    
+}
+.caixa1 {
+    background: linear-gradient(to right, #ff000025, #0000ff15);
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 1px 1px rgb(92, 90, 90);
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
