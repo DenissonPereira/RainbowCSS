@@ -125,3 +125,83 @@ li#primeiro {
     left: 50%; 
     transform: translate(-50%, -50%); 
 }
+.caixa21 {
+    background: linear-gradient(to right, #7cf358, #e90d8d);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.caixa22 {
+    background: linear-gradient(to right, #0cbac0, #e90d8d);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.caixa23 {
+    background: linear-gradient(to right, #d4c603, #e90d8d);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.caixa24 {
+    background: linear-gradient(to right, #080808, #ff0095);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.caixa31 {
+    background: linear-gradient(to right, #12beb6, #ff0095);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.caixa32 {
+    background: linear-gradient(to right, #a70a0a, #ff0095);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.caixa33 {
+    background: linear-gradient(to right, #0e665f, #bb99ad);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.caixa34 {
+    background: linear-gradient(to right, #0614df, #ff0095);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
