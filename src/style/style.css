@@ -55,7 +55,7 @@ li#primeiro {
 }
 
 .caixa_imagem {
-    position: fixed;
+    position: absolute;
     width: 500px;
     height: 300px;
     top: 30%;
