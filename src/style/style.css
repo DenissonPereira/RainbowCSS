@@ -157,7 +157,7 @@ li#primeiro {
     transform: translate(-50%, -50%); 
 }
 .caixa24 {
-    background: linear-gradient(to right, #080808, #ff0095);
+    background: linear-gradient(to right, #8b9dc2, #7f09e6);
     border-radius: 200px;
     height: 300px;
     width: 300px;
