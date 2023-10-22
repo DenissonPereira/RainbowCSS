@@ -11,9 +11,9 @@ https://denissonpereira.github.io/RainbowCSS/
 ![Mobile 1](https://via.placeholder.com/150) ![Mobile 2](https://via.placeholder.com/150)
 
 ## Layout web
-![Web 1](https://via.placeholder.com/150)
+![Web 1](/public/Captura1.png)
 
-![Web 2](https://via.placeholder.com/150)
+![Web 2](/public/Captura2.png)
 
 # Tecnologias utilizadas
 ## Front end
