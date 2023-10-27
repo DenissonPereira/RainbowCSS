@@ -229,8 +229,8 @@ li#primeiro {
     transform: translate(-50%, -50%); 
 }
 .caixa11 {
-    background: linear-gradient(to right, #2022203a, #02020218);
-    backdrop-filter: blur(5px);
+    background: linear-gradient(to right, #891ebb3a, #4d0b7418);
+    backdrop-filter: blur(1px);
     box-shadow: 1px 1px 1px 1px rgb(92, 90, 90);
     border-radius: 20px;
     height: 300px;
