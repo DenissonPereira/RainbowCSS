@@ -218,3 +218,8 @@ li#primeiro {
     border-radius: 1px;
     transition: 0.5s;
 }
+
+img#gif {
+    width: 50%;
+    height: 50%;
+}
