@@ -61,7 +61,7 @@ li#primeiro {
     height: 300px;
     top: 30%;
     left: 50%;
-    background-color: #ffffff0e;
+    background-color: #00000044;
     backdrop-filter: blur(30px);
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.116);
     transform: translate(-50%, -50%);
