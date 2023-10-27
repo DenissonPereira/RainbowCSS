@@ -220,6 +220,6 @@ li#primeiro {
 }
 
 img#gif {
-    width: 50%;
-    height: 50%;
+    max-width: 40%;
+    height: auto;
 }
