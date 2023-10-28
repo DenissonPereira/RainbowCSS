@@ -223,3 +223,8 @@ img#gif {
     max-width: 40%;
     height: auto;
 }
+.caixa_imagem p {
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px black;
+}
