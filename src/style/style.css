@@ -232,7 +232,28 @@ img#gif {
 .roda_pe {
     margin-top: 2%;
     position: absolute;
+    left: 80%;
+    align-items: center;
+}
+  
+.p1 {
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+.p1:hover{
+    box-shadow: 1px 1px 1px 1px rgb(70, 68, 68);
+}
+.roda_pe_2 {
+    margin-top: 6%;
+    position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
+}
