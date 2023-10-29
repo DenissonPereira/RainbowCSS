@@ -216,6 +216,26 @@ li#primeiro {
     left: 50%; 
     transform: translate(-50%, -50%); 
 }
+.caixa42 {
+    background-image: linear-gradient(to right, #06e7eb 0%, #f60ffa 100%);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.caixa43 {
+    background-image: linear-gradient(to right, #ebe6e1 0%, #304352 100%);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
 
 
 
