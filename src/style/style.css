@@ -228,3 +228,7 @@ img#gif {
     font-size: 1.2em;
     text-shadow: 2px 2px 2px black;
 }
+
+.roda_pe div{
+    align-items: center;
+}
