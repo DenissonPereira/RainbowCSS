@@ -232,7 +232,7 @@ img#gif {
 .roda_pe {
     margin-top: 2%;
     position: absolute;
-    left: 80%;
+    left: 79.8%;
     align-items: center;
 }
   
@@ -240,7 +240,7 @@ img#gif {
     text-align: center;
     align-items: center;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
@@ -256,4 +256,8 @@ img#gif {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.p1 a {
+    text-decoration: none;
+    color: #000000;
 }
