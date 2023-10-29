@@ -167,7 +167,7 @@ li#primeiro {
     transform: translate(-50%, -50%); 
 }
 .caixa31 {
-    background: linear-gradient(to right, #12beb6, #84f064);
+    background: linear-gradient(to right, #12beb6, #84f064, rgb(130, 197, 43));
     border-radius: 200px;
     height: 300px;
     width: 300px;
