@@ -229,6 +229,10 @@ img#gif {
     text-shadow: 2px 2px 2px black;
 }
 
-.roda_pe div{
-    align-items: center;
-}
+.roda_pe {
+    margin-top: 2%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
