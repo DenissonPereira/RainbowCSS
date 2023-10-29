@@ -97,7 +97,7 @@ li#primeiro {
     transform: translate(-50%, -50%); 
 }
 .caixa2 {
-    background: linear-gradient(to right, #2d9733, #3ca59c);
+    background-image: linear-gradient(to top, rgb(218, 218, 218) 0%, rgb(206, 203, 203) 1%, #e0e0e0 26%, #f8f4f4 48%, #d9d9d9 75%, #9e9c9c 100%);
     border-radius: 200px;
     height: 300px;
     width: 300px;
