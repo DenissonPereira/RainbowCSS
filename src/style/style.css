@@ -88,6 +88,15 @@ li#primeiro {
 .conter1 p {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+.desc {
+    display: flex;
+    flex-direction: row;
+}
+.down {
+    margin-top: 300px;
+    margin-left: 20px;
+}
+
 .caixa1 {
     background-image: linear-gradient(-30deg, #051df5 0%, #ee1313 100%);
     border-radius: 200px;
@@ -101,8 +110,8 @@ li#primeiro {
     transition: width 0.5s ease;
 }
 .descricao{
-    margin-top: 330px;
-    margin-left: 90px;
+    margin-top: 320px;
+    margin-left: 20px;
 }
 .caixa2 {
     background-image: linear-gradient(to top, rgb(218, 218, 218) 0%, rgb(206, 203, 203) 1%, #e0e0e0 26%, #f8f4f4 48%, #d9d9d9 75%, #9e9c9c 100%);
@@ -113,6 +122,8 @@ li#primeiro {
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
+    cursor: zoom-in;
+    transition: width 0.5s ease;
 }
 .caixa3 {
     background: linear-gradient(to right, #c2bf14, #e94dee);
