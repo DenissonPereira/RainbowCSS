@@ -83,11 +83,13 @@ li#primeiro {
     position: relative;
     margin-right: 20px;
     margin-bottom: 20px;
-
     
 }
+.conter1 p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 .caixa1 {
-    background-image: linear-gradient(to top, #051df5 0%, #ee1313 100%);
+    background-image: linear-gradient(-30deg, #051df5 0%, #ee1313 100%);
     border-radius: 200px;
     height: 300px;
     width: 300px;
