@@ -97,6 +97,7 @@ li#primeiro {
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
+    cursor: zoom-in;
 }
 .descricao{
     margin-top: 330px;
