@@ -118,6 +118,7 @@ li#primeiro {
     margin-top: 320px;
     margin-left: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 .descricao:hover {
     text-shadow: 1px 1px 1px rgba(172, 21, 21, 0.5);
