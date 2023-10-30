@@ -114,11 +114,21 @@ li#primeiro {
     cursor: zoom-in;
     transition: width 0.5s ease;
 }
-.botao_grau {
-    margin-bottom: 100px;
-    width: 9em;
+.ajuste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.botao_grau {
+    margin: 0 10px; /* margem esquerda e direita para espaçamento entre os elementos */
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+input#meuInput {
+    margin-top: 20px;
+}
 .descricao{
     margin-top: 330px;
     margin-left: 20px;
@@ -362,7 +372,4 @@ img#gif {
     transform: translate(-50%, -50%); 
 }
   
-
-
-
 
