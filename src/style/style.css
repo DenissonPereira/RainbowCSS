@@ -98,6 +98,10 @@ li#primeiro {
     left: 50%; 
     transform: translate(-50%, -50%); 
 }
+.descricao{
+    margin-top: 330px;
+    margin-left: 90px;
+}
 .caixa2 {
     background-image: linear-gradient(to top, rgb(218, 218, 218) 0%, rgb(206, 203, 203) 1%, #e0e0e0 26%, #f8f4f4 48%, #d9d9d9 75%, #9e9c9c 100%);
     border-radius: 200px;
@@ -307,3 +311,4 @@ img#gif {
     text-decoration: none;
     color: #000000;
 }
+
