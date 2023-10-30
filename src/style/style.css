@@ -79,7 +79,7 @@ li#primeiro {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     width: 400px;
-    height: 400px;
+    height: 450px;
     position: relative;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -114,8 +114,13 @@ li#primeiro {
     cursor: zoom-in;
     transition: width 0.5s ease;
 }
+.botao_grau {
+    margin-bottom: 100px;
+    width: 9em;
+}
+
 .descricao{
-    margin-top: 320px;
+    margin-top: 330px;
     margin-left: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     cursor: pointer;

@@ -52,3 +52,19 @@ function clique2() {
 
   isExpanded = !isExpanded; // Alternar o estado
 }
+
+
+
+
+function coletarValor() {
+  // Coleta o valor do input
+  var input = document.getElementById("meuInput");
+  var valor = input.value;
+
+  // Coleta a caixa com a classe .caixa1 pelo ID
+  var caixa = document.getElementById("minhaCaixa");
+
+  // Altera o ângulo do gradiente linear
+  caixa.style.backgroundImage = `linear-gradient(${valor}deg, #051df5 0%, #ee1313 100%)`;
+}
+
