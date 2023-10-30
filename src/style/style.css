@@ -325,7 +325,7 @@ img#gif {
     box-shadow: 1px 1px 1px 1px rgb(70, 68, 68);
 }
 .roda_pe_2 {
-    margin-top: 6%;
+    margin-top: 5%;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -335,6 +335,27 @@ img#gif {
     color: #000000;
 }
 
+.roda_pe_2 button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(to right, #2022203a, #02020218);
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.roda_pe_2 button:hover {
+    box-shadow: 2px 2px 2px 2px rgb(28, 50, 170);
+}
+.roda_pe_3 {
+    text-align: center;
+    margin-top: 10%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
   
 
 

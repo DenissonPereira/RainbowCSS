@@ -1,3 +1,20 @@
+function fetchStars() {
+  const repo = 'DenissonPereira/RainbowCSS'; // Substitua pelos seus próprios dados
+  const apiUrl = `https://api.github.com/repos/${repo}`;
+  
+  fetch(apiUrl)
+    .then(response => response.json())
+    .then(data => {
+      const stars = data.stargazers_count;
+      document.getElementById('star-count').textContent = stars;
+    })
+    .catch(error => {
+      console.error(error);
+    });
+}
+
+
+
 let isExpanded = false;
 
 function clique1() {
