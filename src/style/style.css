@@ -96,6 +96,11 @@ li#primeiro {
     margin-top: 300px;
     margin-left: 20px;
 }
+.down img {
+    margin-left: 120px;
+    width: 30px;
+    cursor: pointer;
+}
 
 .caixa1 {
     background-image: linear-gradient(-30deg, #051df5 0%, #ee1313 100%);

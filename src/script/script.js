@@ -1,6 +1,6 @@
 let isExpanded = false;
 
-function clique() {
+function clique1() {
   var elemento = document.getElementsByClassName('caixa1')[0];
 
   if (isExpanded) {
@@ -18,7 +18,7 @@ function clique() {
   isExpanded = !isExpanded; // Alternar o estado
 }
 
-function clique() {
+function clique2() {
   var elemento = document.getElementsByClassName('caixa2')[0];
 
   if (isExpanded) {
