@@ -1,3 +1,4 @@
+// Pegando as minhas estregas no git
 function fetchStars() {
   const repo = 'DenissonPereira/RainbowCSS'; // Substitua pelos seus próprios dados
   const apiUrl = `https://api.github.com/repos/${repo}`;
@@ -13,8 +14,7 @@ function fetchStars() {
     });
 }
 
-
-
+//1
 let isExpanded = false;
 
 function clique1() {
@@ -35,6 +35,19 @@ function clique1() {
   isExpanded = !isExpanded; // Alternar o estado
 }
 
+function coletarValor() {
+  // Coleta o valor do input
+  var input = document.getElementById("meuInput");
+  var valor = input.value;
+
+  // Coleta a caixa com a classe .caixa1 pelo ID
+  var caixa = document.getElementById("minhaCaixa");
+
+  // Altera o ângulo do gradiente linear
+  caixa.style.backgroundImage = `linear-gradient(${valor}deg, #051df5 0%, #ee1313 100%)`;
+}
+
+//2
 function clique2() {
   var elemento = document.getElementsByClassName('caixa2')[0];
 
@@ -52,19 +65,3 @@ function clique2() {
 
   isExpanded = !isExpanded; // Alternar o estado
 }
-
-
-
-
-function coletarValor() {
-  // Coleta o valor do input
-  var input = document.getElementById("meuInput");
-  var valor = input.value;
-
-  // Coleta a caixa com a classe .caixa1 pelo ID
-  var caixa = document.getElementById("minhaCaixa");
-
-  // Altera o ângulo do gradiente linear
-  caixa.style.backgroundImage = `linear-gradient(${valor}deg, #051df5 0%, #ee1313 100%)`;
-}
-
