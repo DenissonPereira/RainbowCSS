@@ -57,9 +57,9 @@ li#primeiro {
 
 .caixa_imagem {
     position: absolute;
-    width: 600px;
-    height: 400px;
-    top: 30%;
+    width: 650px;
+    height: 450px;
+    top: 35%;
     left: 50%;
     backdrop-filter: blur(30px);
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.116);
@@ -71,14 +71,26 @@ li#primeiro {
 img#git {
     width: 2em;
     height: auto;
+    cursor: pointer;
+}
+img#git:hover{
+    width: 2.5em;
 }
 img#insta {
     width: 3.5em;
     height: auto;
+    cursor: pointer;
+}
+img#insta:hover{
+    width: 4em;
 }
 img#face {
     width: 2em;
     height: auto;
+    cursor: pointer;
+}
+img#face:hover{
+    width: 2.5em;
 }
 .container {
     display: flex; /* Define um contêiner flex */
@@ -327,7 +339,7 @@ img#gif {
 }
 .caixa_imagem p {
     color: white;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-shadow: 2px 2px 2px black;
 }
 
