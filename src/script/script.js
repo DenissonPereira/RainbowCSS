@@ -172,8 +172,8 @@ function coletarValor21() {
 }
 
 //22
-function clique21() {
-  var elemento = document.getElementsByClassName('caixa21')[0];
+function clique22() {
+  var elemento = document.getElementsByClassName('caixa22')[0];
 
   if (isExpanded) {
     elemento.style.width = '300px';
@@ -189,16 +189,16 @@ function clique21() {
 
   isExpanded = !isExpanded; // Alternar o estado
 }
-function coletarValor21() {
+function coletarValor22() {
   // Coleta o valor do input
-  var input = document.getElementById("meuInput21");
-  var valor21 = input.value;
+  var input = document.getElementById("meuInput22");
+  var valor22 = input.value;
 
   // Coletando a caixa com a classe .caixa pelo ID
-  var caixa = document.getElementById("minhaCaixa21");
+  var caixa = document.getElementById("minhaCaixa22");
 
   // Altera o ângulo do gradiente linear
-  caixa.style.backgroundImage = `linear-gradient(${valor21}deg, #c5872b 0%, #ca3e25 100%)`;
+  caixa.style.backgroundImage = `linear-gradient(${valor22}deg, #0cbac0, #e90d8d)`;
 
 }
 
