@@ -138,11 +138,6 @@ img#face:hover{
     cursor: zoom-in;
     transition: width 0.5s ease;
 }
-.caixa1:hover {
-    height: 310px;
-    width: 310px;
-    box-shadow: 0px 0px 2px 2px black;
-}
 .ajuste {
     display: flex;
     align-items: center;
@@ -179,11 +174,6 @@ input#meuInput {
     cursor: zoom-in;
     transition: width 0.5s ease;
 }
-.caixa2:hover {
-    height: 310px;
-    width: 310px;
-    box-shadow: 0px 0px 2px 2px black;
-}
 .caixa3 {
     background: linear-gradient(to right, #c2bf14, #e94dee);
     border-radius: 200px;
@@ -194,11 +184,6 @@ input#meuInput {
     left: 50%; 
     transform: translate(-50%, -50%); 
     transition: width 0.5s ease;
-}
-.caixa3:hover {
-    height: 310px;
-    width: 310px;
-    box-shadow: 0px 0px 2px 2px black;
 }
 .caixa4 {
     background-image: linear-gradient(-20deg, #b827fc 0%, #1dd0f8 100%);
@@ -211,11 +196,6 @@ input#meuInput {
     transform: translate(-50%, -50%); 
     transition: width 0.5s ease;
 }
-.caixa4:hover {
-    height: 310px;
-    width: 310px;
-    box-shadow: 0px 0px 2px 2px black;
-}
 .caixa21 {
     background-image: linear-gradient(to top, #c5872b 0%, #ca3e25 100%);
     border-radius: 200px;
@@ -226,11 +206,6 @@ input#meuInput {
     left: 50%; 
     transform: translate(-50%, -50%); 
 }
-.caixa21:hover {
-    height: 310px;
-    width: 310px;
-    box-shadow: 0px 0px 2px 2px black;
-}
 .caixa22 {
     background: linear-gradient(to right, #0cbac0, #e90d8d);
     border-radius: 200px;
@@ -240,11 +215,6 @@ input#meuInput {
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
-}
-.caixa22:hover {
-    height: 310px;
-    width: 310px;
-    box-shadow: 0px 0px 2px 2px black;
 }
 .caixa23 {
     background-image: linear-gradient(to top, #746892 0%, #eebadf 100%);
