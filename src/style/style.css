@@ -68,6 +68,18 @@ li#primeiro {
     border-radius: 50px;
     background-image: linear-gradient(to top, #ffffff0a, #0000003a); /* Gradiente de preto para branco */
 }
+img#git {
+    width: 2em;
+    height: auto;
+}
+img#insta {
+    width: 3.5em;
+    height: auto;
+}
+img#face {
+    width: 2em;
+    height: auto;
+}
 .container {
     display: flex; /* Define um contêiner flex */
     margin-left: 10vw;
