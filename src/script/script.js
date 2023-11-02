@@ -105,6 +105,6 @@ function coletarValor3() {
   var caixa = document.getElementById("minhaCaixa3");
 
   // Altera o ângulo do gradiente linear
-  caixa.style.backgroundImage = `background-image: linear-gradient(${valor3}deg, #b827fc 0%, #1dd0f8 100%)`;
+  caixa.style.backgroundImage = `linear-gradient(${valor3}deg, #c2bf14, #e94dee)`;
 
 }
