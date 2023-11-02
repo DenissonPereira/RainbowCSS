@@ -160,14 +160,14 @@ function clique21() {
 }
 function coletarValor21() {
   // Coleta o valor do input
-  var input = document.getElementById("meuInput4");
+  var input = document.getElementById("meuInput21");
   var valor21 = input.value;
 
   // Coletando a caixa com a classe .caixa pelo ID
   var caixa = document.getElementById("minhaCaixa21");
 
   // Altera o ângulo do gradiente linear
-  caixa.style.backgroundImage = `linear-gradient(${valor4}deg, #b827fc 0%, #1dd0f8 100%)`;
+  caixa.style.backgroundImage = `linear-gradient(${valor21}deg, #c5872b 0%, #ca3e25 100%)`;
 
 }
 
