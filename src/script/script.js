@@ -77,3 +77,34 @@ function coletarValor2() {
   caixa.style.backgroundImage = `linear-gradient(${valor2}deg, rgb(218, 218, 218) 0%, rgb(206, 203, 203) 1%, #e0e0e0 26%, #f8f4f4 48%, #d9d9d9 75%, #9e9c9c 100%)`;
 
 }
+
+//3
+function clique3() {
+  var elemento = document.getElementsByClassName('caixa3')[0];
+
+  if (isExpanded) {
+    elemento.style.width = '300px';
+    elemento.style.height = '300px';
+    elemento.style.zIndex = 1; // Volta ao valor original do z-index
+    elemento.style.cursor = 'zoom-in';
+  } else {
+    elemento.style.width = '3200px';
+    elemento.style.height = '2500px';
+    elemento.style.zIndex = 2;
+    elemento.style.cursor = 'zoom-out';
+  }
+
+  isExpanded = !isExpanded; // Alternar o estado
+}
+function coletarValor3() {
+  // Coleta o valor do input
+  var input = document.getElementById("meuInput3");
+  var valor3 = input.value;
+
+  // Coleta a caixa com a classe .caixa pelo ID
+  var caixa = document.getElementById("minhaCaixa3");
+
+  // Altera o ângulo do gradiente linear
+  caixa.style.backgroundImage = `background-image: linear-gradient(${valor3}deg, #b827fc 0%, #1dd0f8 100%)`;
+
+}
