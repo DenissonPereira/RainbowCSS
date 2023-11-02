@@ -170,6 +170,7 @@ input#meuInput {
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
+    transition: width 0.5s ease;
 }
 .caixa21 {
     background-image: linear-gradient(to top, #c5872b 0%, #ca3e25 100%);
