@@ -108,3 +108,34 @@ function coletarValor3() {
   caixa.style.backgroundImage = `linear-gradient(${valor3}deg, #c2bf14, #e94dee)`;
 
 }
+
+//4
+function clique4() {
+  var elemento = document.getElementsByClassName('caixa4')[0];
+
+  if (isExpanded) {
+    elemento.style.width = '300px';
+    elemento.style.height = '300px';
+    elemento.style.zIndex = 1; // Volta ao valor original do z-index
+    elemento.style.cursor = 'zoom-in';
+  } else {
+    elemento.style.width = '3200px';
+    elemento.style.height = '2500px';
+    elemento.style.zIndex = 2;
+    elemento.style.cursor = 'zoom-out';
+  }
+
+  isExpanded = !isExpanded; // Alternar o estado
+}
+function coletarValor4() {
+  // Coleta o valor do input
+  var input = document.getElementById("meuInput4");
+  var valor4 = input.value;
+
+  // Coletando a caixa com a classe .caixa pelo ID
+  var caixa = document.getElementById("minhaCaixa4");
+
+  // Altera o ângulo do gradiente linear
+  caixa.style.backgroundImage = `linear-gradient(${valor3}deg, #c2bf14, #e94dee)`;
+
+}
