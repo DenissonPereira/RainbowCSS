@@ -19,6 +19,7 @@ https://denissonpereira.github.io/RainbowCSS/
 ## Front end
 - HTML
 - CSS
+- JavaScript
 
 ## Implantação em produção
 - Front end web: GitHub Pages
