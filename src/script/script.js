@@ -291,7 +291,7 @@ function coletarValor31() {
   var caixa = document.getElementById("minhaCaixa31");
 
   // Altera o ângulo do gradiente linear
-  caixa.style.backgroundImage = `linear-gradient(${valor24}deg, #1ef8f8, #a70737)`;
+  caixa.style.backgroundImage = `linear-gradient(${valor31}deg, #12beb6, #84f064, rgb(130, 197, 43))`;
 
 }
 
