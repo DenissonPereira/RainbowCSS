@@ -322,7 +322,7 @@ function coletarValor32() {
   var caixa = document.getElementById("minhaCaixa32");
 
   // Altera o ângulo do gradiente linear
-  caixa.style.backgroundImage = `linear-gradient(${valor31}deg, #12beb6, #84f064, rgb(130, 197, 43))`;
+  caixa.style.backgroundImage = `linear-gradient(${valor32}deg, #a70a0a, #ff0095);`;
 
 }
 
