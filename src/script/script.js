@@ -264,7 +264,7 @@ function coletarValor24() {
 
 }
 
-//25
+//31
 function clique31() {
   var elemento = document.getElementsByClassName('caixa31')[0];
 
@@ -289,6 +289,37 @@ function coletarValor31() {
 
   // Coletando a caixa com a classe .caixa pelo ID
   var caixa = document.getElementById("minhaCaixa31");
+
+  // Altera o ângulo do gradiente linear
+  caixa.style.backgroundImage = `linear-gradient(${valor31}deg, #12beb6, #84f064, rgb(130, 197, 43))`;
+
+}
+
+//32
+function clique32() {
+  var elemento = document.getElementsByClassName('caixa32')[0];
+
+  if (isExpanded) {
+    elemento.style.width = '300px';
+    elemento.style.height = '300px';
+    elemento.style.zIndex = 1; // Volta ao valor original do z-index
+    elemento.style.cursor = 'zoom-in';
+  } else {
+    elemento.style.width = '3200px';
+    elemento.style.height = '2500px';
+    elemento.style.zIndex = 2;
+    elemento.style.cursor = 'zoom-out';
+  }
+
+  isExpanded = !isExpanded; // Alternar o estado
+}
+function coletarValor32() {
+  // Coleta o valor do input
+  var input = document.getElementById("meuInput32");
+  var valor32 = input.value;
+
+  // Coletando a caixa com a classe .caixa pelo ID
+  var caixa = document.getElementById("minhaCaixa32");
 
   // Altera o ângulo do gradiente linear
   caixa.style.backgroundImage = `linear-gradient(${valor31}deg, #12beb6, #84f064, rgb(130, 197, 43))`;
