@@ -327,7 +327,7 @@ function coletarValor32() {
 }
 
 //33
-function clique32() {
+function clique33() {
   var elemento = document.getElementsByClassName('caixa33')[0];
 
   if (isExpanded) {
@@ -353,7 +353,7 @@ function coletarValor33() {
   var caixa = document.getElementById("minhaCaixa33");
 
   // Altera o ângulo do gradiente linear
-  caixa.style.backgroundImage = `linear-gradient(${valor32}deg, #a70a0a, #ff0095)`;
+  caixa.style.backgroundImage = `linear-gradient(${valor33}deg, #0e665f, #bb99ad)`;
 
 }
 
