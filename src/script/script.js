@@ -27,7 +27,7 @@ function clique1() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
@@ -58,7 +58,7 @@ function clique2() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
@@ -89,7 +89,7 @@ function clique3() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
@@ -120,7 +120,7 @@ function clique4() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
@@ -151,7 +151,7 @@ function clique21() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
@@ -182,7 +182,7 @@ function clique22() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
@@ -213,7 +213,7 @@ function clique23() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
@@ -244,7 +244,7 @@ function clique24() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
@@ -275,7 +275,7 @@ function clique31() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
@@ -306,7 +306,7 @@ function clique32() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
@@ -337,7 +337,7 @@ function clique33() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
@@ -368,7 +368,7 @@ function clique34() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
@@ -398,7 +398,7 @@ function clique41() {
     elemento.style.cursor = 'zoom-in';
   } else {
     elemento.style.width = '3200px';
-    elemento.style.height = '4500px';
+    elemento.style.height = '8000px';
     elemento.style.zIndex = 2;
     elemento.style.cursor = 'zoom-out';
   }
