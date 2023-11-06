@@ -326,4 +326,35 @@ function coletarValor32() {
 
 }
 
+//33
+function clique32() {
+  var elemento = document.getElementsByClassName('caixa33')[0];
+
+  if (isExpanded) {
+    elemento.style.width = '300px';
+    elemento.style.height = '300px';
+    elemento.style.zIndex = 1; // Volta ao valor original do z-index
+    elemento.style.cursor = 'zoom-in';
+  } else {
+    elemento.style.width = '3200px';
+    elemento.style.height = '2500px';
+    elemento.style.zIndex = 2;
+    elemento.style.cursor = 'zoom-out';
+  }
+
+  isExpanded = !isExpanded; // Alternar o estado
+}
+function coletarValor33() {
+  // Coleta o valor do input
+  var input = document.getElementById("meuInput33");
+  var valor33 = input.value;
+
+  // Coletando a caixa com a classe .caixa pelo ID
+  var caixa = document.getElementById("minhaCaixa33");
+
+  // Altera o ângulo do gradiente linear
+  caixa.style.backgroundImage = `linear-gradient(${valor32}deg, #a70a0a, #ff0095)`;
+
+}
+
 
