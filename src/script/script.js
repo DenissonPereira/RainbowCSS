@@ -387,5 +387,35 @@ function coletarValor34() {
   caixa.style.backgroundImage = `linear-gradient(${valor34}deg, #0614df, #ff0095)`;
 
 }
+//41
+function clique41() {
+  var elemento = document.getElementsByClassName('caixa41')[0];
+
+  if (isExpanded) {
+    elemento.style.width = '300px';
+    elemento.style.height = '300px';
+    elemento.style.zIndex = 1; // Volta ao valor original do z-index
+    elemento.style.cursor = 'zoom-in';
+  } else {
+    elemento.style.width = '3200px';
+    elemento.style.height = '4500px';
+    elemento.style.zIndex = 2;
+    elemento.style.cursor = 'zoom-out';
+  }
+
+  isExpanded = !isExpanded; // Alternar o estado
+}
+function coletarValor41() {
+  // Coleta o valor do input
+  var input = document.getElementById("meuInput41");
+  var valor41 = input.value;
+
+  // Coletando a caixa com a classe .caixa pelo ID
+  var caixa = document.getElementById("minhaCaixa41");
+
+  // Altera o ângulo do gradiente linear
+  caixa.style.backgroundImage = `linear-gradient(${valor41}deg, #fdcbef 0%, #a4c0f1 100%`;
+
+}
 
 
