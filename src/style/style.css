@@ -339,6 +339,10 @@ img#gif {
     filter: drop-shadow(10px 8px 8px rgb(0, 0, 0));
     cursor: pointer;
 }
+img#gif:hover {
+    filter: drop-shadow(10px 20px 8px rgb(0, 0, 0));
+}
+
 .caixa_imagem p {
     color: white;
     font-size: 1.4em;
