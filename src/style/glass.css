@@ -71,7 +71,7 @@ li#primeiro {
 }
 
 .container {
-    display: flex; /* Define um contêiner flex */
+    display: flex; 
     margin-left: 10vw;
     width: 1500px;
     justify-content: center;
