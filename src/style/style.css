@@ -75,6 +75,7 @@ img#git {
 }
 img#git:hover{
     width: 2.5em;
+    filter: drop-shadow(0px 5px 5px rgb(2, 247, 55));
 }
 img#insta {
     width: 3.5em;
@@ -83,6 +84,7 @@ img#insta {
 }
 img#insta:hover{
     width: 4em;
+    filter: drop-shadow(0px 6px 6px rgb(211, 92, 92));
 }
 img#face {
     width: 2em;
@@ -91,6 +93,7 @@ img#face {
 }
 img#face:hover{
     width: 2.5em;
+    filter: drop-shadow(0px 5px 5px blue);
 }
 .container {
     display: flex; /* Define um contêiner flex */
