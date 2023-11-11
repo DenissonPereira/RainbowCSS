@@ -337,6 +337,7 @@ img#gif {
     max-width: 40%;
     height: auto;
     filter: drop-shadow(10px 8px 8px rgb(0, 0, 0));
+    cursor: pointer;
 }
 .caixa_imagem p {
     color: white;
