@@ -83,6 +83,15 @@
       
 }
 
+
+/* Deixando responsivo para tablets  */
+
+@media (min-width: 768px) {
+
+}
+
+
+/* Orientação na horizontal  */
 @media (orientation: landscape) {
     header {
         height: 2em;
@@ -127,4 +136,3 @@
 }
 
 
-/* Deixando responsivo para tablets  */
