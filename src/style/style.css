@@ -2,7 +2,7 @@
 @import 'variaveis.css';
 
 body {
-    background-color: rgb(235, 227, 195);
+    background-color: var(--cor-pag);
     margin: 0;
     padding: 0;
 }
@@ -14,7 +14,7 @@ ul {
 header {
     background-color: #3333332d;
     backdrop-filter: blur(20px);
-    color: #fff;
+    color: var(--cor-branca);
     position: fixed;
     width: 100%;
     height: 4em;
@@ -35,14 +35,14 @@ nav a {
     text-decoration: none;
     color: var(--cor-branca);
     font-weight: bold;
-    font-size: 30px;
+    font-size: var(--tam-cabecaro);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 4px 4px 4px #1f1f1f;
+    text-shadow: var(--sombra-preta);
     transition: 0.5s;
 }
 nav a:hover {
-    color: aqua;
-    font-size: 40px;
+    color: var(--cor-hover);
+    font-size: 2.5em;
     transition: 1s;
 }
 
@@ -51,7 +51,7 @@ li#primeiro {
 }
 .imagem img {
     width: 100%;
-    height: 700px;
+    height: 43.75em;
     z-index: -1;
     margin-bottom: 10px;
 }

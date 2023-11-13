@@ -1,4 +1,10 @@
 :root {
+    /* Cores  */
     --cor-branca: #fff;
+    --cor-pag: rgb(235, 227, 195);
+    --cor-hover: rgb(16, 240, 240);
+
+    /* Tamanhos */
     --tam-cabecaro: 1.875em;
+    --sombra-preta: 4px 4px 4px #1f1f1f;
 }
