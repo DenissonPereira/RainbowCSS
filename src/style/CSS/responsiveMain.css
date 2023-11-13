@@ -96,6 +96,23 @@
     .down {
         margin-left: 10.25em;
     }
+
+    .roda_pe_2 {
+        text-align: center;
+        margin-top: 6em;
+    }
+
+    .roda_pe {
+        display: flex;
+        flex-direction: row;
+        left: 5%;
+    }
+
+    .roda_pe_3 {
+        margin-top: 18em;
+        font-size: 0.8em;
+    }
+
 }
 
 
