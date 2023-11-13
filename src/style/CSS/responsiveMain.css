@@ -48,16 +48,27 @@
         text-align: center;
     }
 
+    .roda_pe {
+        display: flex;
+        left: 6%;
+    }
+
+    .p1 {
+        width: 30px;
+        height: 40px;
+    }
+
     .roda_pe_1 {
         display: inline-block;
     }
 
     .roda_pe_2 {
-        margin-top: 20%;
+        margin-top: 24%;
     }
 
     .roda_pe_3 {
-        margin-top: 50%;
+        margin-top: 55%;
+        font-size: 12px;
     }
 
     .container {
