@@ -1,6 +1,6 @@
 // Pegando as minhas estregas no git
 function fetchStars() {
-  const repo = 'DenissonPereira/RainbowCSS'; // Substitua pelos seus próprios dados
+  const repo = 'DenissonPereira/RainbowCSS'; 
   const apiUrl = `https://api.github.com/repos/${repo}`;
   
   fetch(apiUrl)
