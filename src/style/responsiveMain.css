@@ -1,13 +1,32 @@
 @media screen and (max-width: 768px) {
     header {
-        height: 4em;
-    }
-
-    nav ul li{
-        margin-right: 0em
+        height: 5em;
     }
 
     nav a {
         font-size: 1em;
+        justify-content: center;
+        text-align: center;
     }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0.225em 0.5em;
+        justify-content: center;
+    }
+    .imagem {
+        width: 100%;
+    }
+
+    .imagem img {
+        width: 110%;
+    }
+
+    .caixa_imagem {
+        margin-left: 4%;
+        top: 50%;
+        width: 20em;
+    }
+      
 }
