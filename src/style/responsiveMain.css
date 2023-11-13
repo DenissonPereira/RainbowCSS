@@ -1,6 +1,9 @@
 @media screen and (max-width: 768px) {
     header {
         height: 5em;
+        position: fixed;
+        top: 0px;
+        z-index: 200%;
     }
 
     nav a {
@@ -36,7 +39,19 @@
         width: 93.75em;
         justify-content: center;
         text-align: center;
-      }
-      
+    }
+
+    .roda_pe_1 {
+        display: inline-block;
+    }
+
+    .roda_pe_2 {
+        margin-top: 20%;
+    }
+
+.roda_pe_3 {
+    margin-top: 50%;
+}
+    
       
 }
