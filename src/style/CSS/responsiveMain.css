@@ -1,4 +1,10 @@
 @media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
     header {
         height: 5em;
         position: fixed;
@@ -23,7 +29,7 @@
     }
 
     .imagem img {
-        width: 110%;
+        max-width: 100%;
     }
 
     .caixa_imagem {

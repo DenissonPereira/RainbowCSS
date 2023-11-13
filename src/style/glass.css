@@ -40,7 +40,7 @@ nav a {
     transition: 0.5s;
 }
 nav a:hover {
-    color: aqua;
+    color: rgb(16, 240, 240);
     font-size: 40px;
     transition: 1s;
 }
