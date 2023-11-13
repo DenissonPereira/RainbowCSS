@@ -3,7 +3,11 @@
         height: 4em;
     }
 
-    nav ul{
-        padding: 0.0em 0;
+    nav ul li{
+        margin-right: 0em
+    }
+
+    nav a {
+        font-size: 1em;
     }
 }
