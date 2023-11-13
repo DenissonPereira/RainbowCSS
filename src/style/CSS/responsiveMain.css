@@ -89,7 +89,7 @@
 
 
 
-/* Orientação na horizontal  */
+/* Orientação na horizontal  Para pequenos celulares*/
 @media (max-width: 768px) and (orientation: landscape) {
     header {
         height: 2em;
