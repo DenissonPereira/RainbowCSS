@@ -54,6 +54,11 @@ li#primeiro {
     z-index: -1;
     margin-bottom: 10px;
 }
+.principal{
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+}
 
 .caixa_imagem {
     position: absolute;
