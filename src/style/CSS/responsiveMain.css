@@ -85,10 +85,33 @@
 
 
 /* Deixando responsivo para tablets  */
-@media (min-width: 768px) and (max-width: 920px){
+@media (min-width: 768px) and (max-width: 920px) {
+    nav ul {
+        flex-direction: row;
+        font-size: 1.2em;
+    }
 
+    header {
+        height: 2em;
+    }
+
+    .caixa_imagem {
+        top: 30%;
+        width: 40em;
+        height: auto;
+    }
+
+    .down {
+        margin-left: 50%;
+    }
 }
 
+/* Tablets maiores  */
+@media (min-width: 820px) and (max-width:1190px) {
+    body {
+        background-color: rgb(151, 145, 145);
+    }
+}
 
 
 
@@ -109,7 +132,7 @@
     .principal {
         display: inline-block;
     }
-    
+
     nav ul {
         display: flex;
         flex-direction: row;
