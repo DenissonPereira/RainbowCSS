@@ -1,3 +1,5 @@
+/* Deixando responsivo para celulares  */
+
 @media screen and (max-width: 768px) {
     body {
         margin: 0;
@@ -69,3 +71,6 @@
     
       
 }
+
+
+/* Deixando responsivo para tablets  */
