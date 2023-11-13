@@ -104,18 +104,18 @@ img#face:hover{
 .container {
     display: flex; /* Define um contêiner flex */
     margin-left: 10vw;
-    width: 1500px;
+    width: 93.75em;
     justify-content: center;
     text-align: center;
 }
 .conter1 {
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    width: 400px;
-    height: 450px;
+    background-color: var(--cor-branca);
+    border-radius: 1.25em;
+    width: var(--container-comprimento);
+    height: var(--container-altura);
     position: relative;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 1.25em;
+    margin-bottom: 1.25em;
     
 }
 .conter1 p {
