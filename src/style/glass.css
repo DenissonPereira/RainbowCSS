@@ -23,7 +23,7 @@ header {
 nav ul {
     display: flex;
     justify-content: space-around;
-    padding: 10px 0;
+    padding: 0.625em 0;
 }
 
 nav ul li {
