@@ -28,5 +28,15 @@
         top: 50%;
         width: 20em;
     }
+
+    .container {
+        display: flex;
+        flex-direction: column; 
+        margin-left: 0.30vw;
+        width: 93.75em;
+        justify-content: center;
+        text-align: center;
+      }
+      
       
 }
