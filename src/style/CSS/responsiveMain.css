@@ -108,8 +108,35 @@
 
 /* Tablets maiores  */
 @media (min-width: 820px) and (max-width:1190px) {
-    body {
-        background-color: rgb(151, 145, 145);
+    header {
+        height: 5em;
+    }
+
+    nav ul {
+        font-size: 1em;
+        padding: 0.925em -10.0em;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        margin-right: 0.1em;
+    }
+    
+    .imagem {
+        width: 183%;
+    }
+
+    .imagem img {
+        max-width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column; 
+        margin-left: 0.30vw;
+        width: 93.75em;
+        justify-content: center;
+        text-align: center;
     }
 }
 
