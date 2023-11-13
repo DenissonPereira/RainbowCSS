@@ -85,6 +85,9 @@
 
 
 /* Deixando responsivo para tablets  */
+@media (min-width: 768px) and (max-width: 920px){
+
+}
 
 
 
@@ -106,6 +109,7 @@
     .principal {
         display: inline-block;
     }
+    
     nav ul {
         display: flex;
         flex-direction: row;
