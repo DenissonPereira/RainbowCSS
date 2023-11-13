@@ -1,6 +1,6 @@
 /* Deixando responsivo para celulares  */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     body {
         margin: 0;
         padding: 0;
@@ -70,6 +70,32 @@
     }
     
       
+}
+
+@media (orientation: landscape) {
+    header {
+        height: 2em;
+        position: fixed;
+        top: 0px;
+        z-index: 200;
+    }
+
+    .caixa_imagem {
+        top: 90%;
+        width: 30em;
+    }
+
+    .principal {
+        display: inline-block;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .down {
+        margin-left: 10.25em;
+    }
 }
 
 
