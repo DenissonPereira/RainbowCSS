@@ -58,9 +58,9 @@ li#primeiro {
 
 .caixa_imagem {
     position: absolute;
-    width: 600px;
-    height: 400px;
-    top: 35%;
+    width: 650px;
+    height: 450px;
+    top: 37%;
     left: 50%;
     background-image: linear-gradient(to top, #ffffff0a, #0000003a);
     backdrop-filter: blur(10px);
