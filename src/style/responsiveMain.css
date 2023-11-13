@@ -3,7 +3,7 @@
         height: 5em;
         position: fixed;
         top: 0px;
-        z-index: 200%;
+        z-index: 200;
     }
 
     nav a {
