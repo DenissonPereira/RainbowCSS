@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    header {
+        height: 4em;
+    }
+
+    nav ul{
+        padding: 0.0em 0;
+    }
+}
