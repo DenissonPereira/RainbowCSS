@@ -7,4 +7,7 @@
     /* Tamanhos */
     --tam-cabecaro: 1.875em;
     --sombra-preta: 4px 4px 4px #1f1f1f;
+    --marg-cabecaro: 0.625em;
+    --altura-caixa: 28.125em;
+    --comprimento-caixa: 40.625em;
 }
