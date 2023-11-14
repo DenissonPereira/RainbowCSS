@@ -14,7 +14,21 @@ body.dark {
 .tema button{
     width: 5em;
     margin-left: 1%;
+    border-radius: 20px;
+    background-color: var(--cor-branca);
+    cursor: pointer;
+    border: none;
 }
+
+.botao_cor:hover {
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+
+.tema button img {
+    margin-top: 1em;
+    width: 20px;
+}
+
 
 ul {
     list-style: none;
