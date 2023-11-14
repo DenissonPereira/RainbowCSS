@@ -6,6 +6,16 @@ body {
     margin: 0;
     padding: 0;
 }
+
+body.dark {
+    background-color: rgb(51, 52, 58);
+}
+
+.tema button{
+    width: 5em;
+    margin-left: 1%;
+}
+
 ul {
     list-style: none;
     padding: 0;
