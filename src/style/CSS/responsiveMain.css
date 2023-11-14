@@ -81,21 +81,22 @@
     }
 
     .tema {
+        display: flex;
+        justify-content: center;
         align-items: center;
-        margin-left: 7.4em;
         margin-bottom: 1em;
     }
 
     .tema button{
         width: 10em;
-        height: 4.1em;
+        height: 5em;
         margin-left: 1%;
         border-radius: 20px;
         border: none;
     }
     
     .tema button img {
-        margin-top: 0em;
+        margin-top: .5em;
         width: 20px;
     }
     
