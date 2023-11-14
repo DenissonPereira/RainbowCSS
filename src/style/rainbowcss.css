@@ -2,7 +2,7 @@
 @import 'variaveis.css';
 
 body {
-    background-image: url(/src/image/ai-generated-8297143.jpg);
+    background-image: url(../image/ai-generated-8297143.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
