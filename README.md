@@ -22,7 +22,7 @@ Dê uma espiada nas imagens abaixo para ter uma prévia visual do projeto em aç
 ### 📱 Layout mobile
 ![Mobile 1](https://via.placeholder.com/150) ![Mobile 2](https://via.placeholder.com/150)
 
-## Tecnologias utilizadas
+## 📚 Stack Tecnológica
 
 [![Badge](https://img.shields.io/badge/HTML-orange?style=flat&logo=html5&logoColor=white)](https://www.w3.org/html/)
 [![Badge](https://img.shields.io/badge/CSS-blue?style=flat&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/Overview.en.html)
