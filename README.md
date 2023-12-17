@@ -1,6 +1,6 @@
 # 🌈 RainbowCSS Page
 
-# Explore a Aplicação em Funcionamento
+# 🔍 Explore a Aplicação em Funcionamento
 
 Convidamos você a explorar a aplicação **"Cifra Mágica"** em sua versão online: 
 
@@ -36,6 +36,10 @@ Dê uma espiada nas imagens abaixo para ter uma prévia visual do projeto em aç
 # 🚀 Como executar o projeto 🚀
 
 [![NPM](https://img.shields.io/badge/Clique%20Aqui-8A2BE2)](https://denissonpereira.github.io/RainbowCSS/)
+
+>## 🚨 Aguarde! Ainda não terminou!
+
+>O projeto está atualmente em desenvolvimento, e o ambiente aberto para contribuições de qualquer pessoa adiciona uma dimensão colaborativa e comunitária ao seu crescimento.
 
 ## 📜 Licença
 
