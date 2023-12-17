@@ -6,7 +6,7 @@ Convidamos você a explorar a aplicação **"Cifra Mágica"** em sua versão onl
 
 [![NPM](https://img.shields.io/badge/Clique%20Aqui-8A2BE2)](https://denissonpereira.github.io/RainbowCSS/)
 
-# Sobre o projeto
+# 📑 Sobre o projeto
 
 **RainbowCSS** é uma aplicação de front-end que oferece uma valiosa ferramenta aos usuários. Ela copia código em **CSS**, permitindo que as pessoas o utilizem facilmente em seus projetos escolhidos, simplificando o processo de design web. Com o **RainbowCSS**, os usuários podem acessar e aplicar estilos **CSS** de forma eficiente, aprimorando suas capacidades de design.
 
@@ -29,7 +29,7 @@ Dê uma espiada nas imagens abaixo para ter uma prévia visual do projeto em aç
 [![Badge](https://img.shields.io/badge/JavaScript-yellow?style=flat&logo=javascript&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
-## Implantação em produção
+## 🌐 Implantação em produção
 
 - Web: `GitHub Pages`
 
